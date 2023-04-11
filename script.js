@@ -27,7 +27,7 @@
   GM_addStyle(".sg-dialog-no-scroll{position: relative;}");
 
   //even add grid
-  //   GM_addStyle(
-  //     ".brn-qpage-layout {    grid-template-areas:        'main main-bottom'        'main main-bottom';     grid-template-columns: 50%; .brn-qpage-bottom-section { margin-top:0 }"
-  //   );
+  GM_addStyle(
+    ".brn-qpage-layout {    grid-template-areas:        'main main-bottom'        'main main-bottom';     grid-template-columns: 50%; .brn-qpage-bottom-section { margin-top:0 }"
+  );
 })();
