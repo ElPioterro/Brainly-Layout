@@ -21,7 +21,7 @@
 
   //kill optional divs
   GM_addStyle(
-    "[data-testid='textbooks_q_a_entry_point_options_classes_test_id'],.brn-header-container,.brn-qpage-layout__right   {    display: none !important;  }"
+    "[data-testid='textbooks_q_a_entry_point_options_classes_test_id'],.brn-header-container,.brn-qpage-layout__right,.js-react-above-answers   {    display: none !important;  }"
   );
   //fix for scrollbar
   GM_addStyle(".sg-dialog-no-scroll{position: relative;}");
