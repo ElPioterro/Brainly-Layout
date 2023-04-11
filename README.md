@@ -5,7 +5,6 @@ Script used with Tampermonkey to remove ads, popups and annoying banners
 
 ## Lessons Learned
 
-Learned what:
 - GM_addStyle(...)
 - localStorage
 - jQuery .attr() ; .remove() ; .appendTo()
