@@ -28,6 +28,6 @@
 
   //even add grid
   GM_addStyle(
-    ".brn-qpage-layout {    grid-template-areas:        'main main-bottom'        'main main-bottom';     grid-template-columns: 50%; .brn-qpage-bottom-section { margin-top:0 }"
+    ".brn-qpage-layout {    grid-template-areas: 'main' 'main-bottom'; grid-template-columns: 600px; } .brn-qpage-bottom-section { margin-top:0 }"
   );
 })();
