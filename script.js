@@ -30,4 +30,9 @@
   GM_addStyle(
     ".brn-qpage-layout {    grid-template-areas:        'main main-bottom'        'main main-bottom';     grid-template-columns: 50%; } .brn-qpage-bottom-section { margin-top:0 }"
   );
+  
+  //make it sticky
+  GM_addStyle(
+    ".brn-qpage-layout__main { position: fixed; left: 9.5em; top: 30%; }"
+  );
 })();
